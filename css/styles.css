@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #2e2f42;
   background: #fff;
 }
 
@@ -34,8 +34,12 @@ img{
 
 .page-header{
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16),
+      0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
+
+
 .header-container{
   display: flex;
   align-items: center;
@@ -384,8 +388,8 @@ img{
 }
 /* --------------------FOOTER----------------------- */
 .footer-section{
-  margin-left: 156px;
-    max-width: 264px;
+  
+  max-width: 264px;
   margin-right: 0;
   padding: 0;
 }
@@ -460,6 +464,6 @@ img{
 
 .social-link-footer:hover,
 .social-link-footer:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
   cursor: pointer;
 }
